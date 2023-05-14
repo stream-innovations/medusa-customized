@@ -1,0 +1,23 @@
+# The routes of the project.
+#
+# Each route describes how an incoming URL is going
+# to be processed by Platform.sh.
+
+"https://medusa.{default}":
+  type: upstream
+  upstream: "backend:http"
+  id: api
+
+"https://admin.{default}":
+  type: redirect
+  to: "https://medusa.{default}/app"
+  id: admin
+
+"https://www.{default}":
+  type: upstream
+  upstream: "storefront:http"
+  id: storefront
+
+"https://{default}":
+  type: redirect
+  to: "https://www.{default}"

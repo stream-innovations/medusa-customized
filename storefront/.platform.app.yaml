@@ -1,0 +1,38 @@
+# The name of this app. Must be unique within a project.
+name: storefront
+
+type: nodejs:18
+
+build:
+  flavor: none
+
+size: L
+
+resources:
+  base_memory: 1024
+  memory_ratio: 1024
+
+hooks:
+  build: |
+    set -e
+    corepack yarn install --immutable --production=false
+
+web:
+  commands:
+    start: |
+      # This is not ideal, but it works, and it's good enough for now.
+      # For the record: what happens is that when the build directory is empty the first time the app is deployed,
+      # the storefront will yield a 502 when loaded. But as soon as the build directory is populated, then the next
+      # request will load the store correctly.
+      corepack yarn build
+      corepack yarn start -p $PORT
+
+disk: 2048
+
+mounts:
+  /.cache:
+    source: local
+    source_path: 'cache'
+  /.next:
+    source: local
+    source_path: 'next'
