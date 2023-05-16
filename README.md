@@ -7,6 +7,8 @@ In the ever-evolving world of e-commerce, businesses are constantly on the looko
 ##### What is StreamCOMMERCE?
 StreamCOMMERCE is an e-commerce platform that embraces the concept of headless architecture, separating the front-end presentation layer from the back-end business logic. It leverages MedusaJS, an open-source JavaScript framework specifically designed for building scalable and customizable e-commerce applications. With StreamCOMMERCE, businesses can create unique, branded, and immersive shopping experiences while enjoying the flexibility to adapt and integrate with various front-end technologies.
 
+StreamCOMMERCE is an open-source commerce solution, offering reusable modules for bespoke applications, leveraging modern tech for scalability and control, ideal for brands seeking customization and innovation. stream-protocol/stream-commerce-apps 
+
 ##### Key Features of StreamCOMMERCE:
 Headless Flexibility: StreamCOMMERCE allows businesses to decouple the front-end and back-end, enabling the freedom to build engaging user interfaces using any modern front-end technology such as React, Vue.js, or Angular. This flexibility empowers developers to craft highly tailored and optimized shopping experiences.
 
@@ -32,9 +34,6 @@ StreamCOMMERCE, built on MedusaJS, offers a powerful and flexible headless e-com
 Backend/Admin: Medusa 
 
 Storefront: Home | ACME 
-
-##### Source Code:
-StreamCOMMERCE is an open-source commerce solution, offering reusable modules for bespoke applications, leveraging modern tech for scalability and control, ideal for brands seeking customization and innovation. stream-protocol/stream-commerce-apps 
 
 
 <p align="center">
