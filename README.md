@@ -1,6 +1,3 @@
-<p align="center">
-<a href="https://console.platform.sh/projects/create-project/?template=https://github.com/platformista/medusa/blob/main/template-definition.yaml&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://github.com/platformista/medusa/blob/main/template-definition.yaml" target="_blank" title="Deploy with Platform.sh"><img src="https://platform.sh/images/deploy/deploy-button-lg-blue.svg"></a>
-</p>
 
 ### StreamCOMMERCE
 ##### A Headless e-Commerce Platform Powered by MedusaJS
@@ -39,6 +36,10 @@ Storefront: Home | ACME
 ##### Source Code:
 StreamCOMMERCE is an open-source commerce solution, offering reusable modules for bespoke applications, leveraging modern tech for scalability and control, ideal for brands seeking customization and innovation. stream-protocol/stream-commerce-apps 
 
+
+<p align="center">
+<a href="https://console.platform.sh/projects/create-project/?template=https://github.com/platformista/medusa/blob/main/template-definition.yaml&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://github.com/platformista/medusa/blob/main/template-definition.yaml" target="_blank" title="Deploy with Platform.sh"><img src="https://platform.sh/images/deploy/deploy-button-lg-blue.svg"></a>
+</p>
 
 # StreamCOMMERCE (Medusa) for Platform.sh
 
