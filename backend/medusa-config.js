@@ -77,7 +77,14 @@ const projectConfig = {
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
 module.exports = {
-  projectConfig,
-  plugins,
-  modules,
-};
+  projectConfig: {
+    // ...other configurations
+    http_compression: {
+      enabled: true,
+      // optional settings
+      level: 6,
+      memLevel: 8,
+      threshold: 1024,
+    },
+  },
+}
