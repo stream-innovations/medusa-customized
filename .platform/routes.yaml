@@ -3,21 +3,21 @@
 # Each route describes how an incoming URL is going
 # to be processed by Platform.sh.
 
-"https://medusa.{default}":
+"https://api.streampay.store":
   type: upstream
   upstream: "backend:http"
   id: api
 
-"https://admin.{default}":
+"https://admin.streampay.store":
   type: redirect
-  to: "https://medusa.{default}/app"
+  to: "https://admin.streampay.store/app"
   id: admin
 
-"https://www.{default}":
+"https://www.streampay.store":
   type: upstream
   upstream: "storefront:http"
   id: storefront
 
-"https://{default}":
+"https://streampay.store":
   type: redirect
-  to: "https://www.{default}"
+  to: "https://www.streampay.store"
