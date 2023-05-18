@@ -33,7 +33,7 @@ StreamCOMMERCE, built on MedusaJS, offers a powerful and flexible headless e-com
 ##### Applications demo
 Backend/Admin: Medusa 
 
-Storefront: Home | ACME 
+Storefront: Home | StreamCOMMMERCE 
 
 
 <p align="center">
